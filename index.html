@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meine erste Webseite 🎉</title>
+  <meta name="description" content="Hallo! Das ist meine erste eigene Webseite." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <!-- Skip-Link für Barrierefreiheit -->
+  <a class="skip-link" href="#start">Zum Inhalt springen</a>
+
+  <!-- HERO: bunter Streifen + Navi-Pills -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">Hallo wir sind </p>
+      <h1>Maria und Anna<span class="wave">👋</span></h1>
+      <p class="sub">
+       Wir sind Anna und Maria und lieben Hunde indbesonders gerne!
+        <strong></strong> &amp; <strong>CSS</strong>
+      </p>
+
+      <!-- Navigation im Hero -->
+      <nav class="hero-nav" aria-label="Seitennavigation">
+        <a class="pill" href="#ueber-mich">🐕 Unser Angebot</a>
+        <a class="pill" href="#mochte-ich">💬 Warum wir das machen</a>
+        <a class="pill" href="#projekte">📷 Unsere Erfahrungen & Bilder</a>
+        <a class="pill" href="#ueber-mich">📞 Kontakt</a>
+      </nav>
+
+      <a class="btn" href="#ueber-mich">Los geht’s/Schau Dir es doch mal an!</a>
+    </div>
+  </header>
+
+  <main id="start" class="container">
+    <!-- ÜBER MICH -->
+    <section id="ueber-mich" class="section">
+      <h2 class="section-title">🐕 Unser Angebot</h2>
+      <p class="lead">
+        Ich bin 11 Jahre alt, male oft und lerne gern neue Dinge. In meinem Kurs habe ich schon mit
+        HTML und CSS experimentiert. Hier zeige ich dir ein bisschen was über mich.
+      </p>
+
+<!-- WAS ICH MAG -->
+    <section id="mochte-ich" class="section">
+      <h2 class="section-title">💬 Warum wir das machen</h2>
+      <ul class="chip-list" aria-label="Meine Lieblingsdinge">
+        <li>✅ Spaziergänge nach Absprache🐶</li>
+        <li>✅ Wochenend- oder Ferienbetreuung</li>
+        <li>✅ Spiel, Spaß und ganz viel Zuwendung</li>
+        <li>✅ Betreuung bei uns zu Hause oder bei Ihnen – je nach Wunsch</li>
+        <li></li>
+        <li>🌍</li>
+      </ul>
+    </section>
+
+
+      <div class="sticker-grid">
+        <figure class="sticker tilt-l">
+          <img src="bilder/paint.jpg" alt="Pinsel und bunte Farbe auf Papier" />
+          <figcaption>Ich liebe malen 🎨</figcaption>
+        </figure>
+
+        <figure class="sticker tilt-r">
+          <img src="bilder/spiel.jpg" alt="Ein Turm aus Spielsteinen" />
+          <figcaption>Hierin bin ich richtig gut 🧩</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  
+
+    <!-- PROJEKTE -->
+    <section id="projekte" class="section">
+      <h2 class="section-title">📷 Unsere Erfahrungen & Bilder</h2>
+      <p class="lead">Hier sind kleine Sachen, die ich gemacht habe:</p>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>Mini-Seite</h3>
+          <p>Meine erste HTML-Seite mit Überschriften, Listen und Bildern.</p>
+          <span class="badge">HTML</span>
+        </article>
+
+        <article class="card">
+          <h3>Farben-Experiment</h3>
+          <p>Ich habe Hintergrundfarben, Schriften und Abstände mit CSS ausprobiert.</p>
+          <span class="badge">CSS</span>
+        </article>
+
+        <article class="card">
+          <h3>Lieblingsliste</h3>
+          <p>Eine Liste mit Dingen, die ich mag – hübsch formatiert.</p>
+          <span class="badge">Listen</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- DANKE -->
+    <section id="danke" class="section">
+      <h2 class="section-title">Danke! 🥰</h2>
+      <p class="lead">
+        Danke an meinen Kurs und alle, die mir geholfen haben. Ich bin stolz auf meine erste Seite!
+      </p>
+      <p><a class="back-to-top" href="#top">Zurück nach oben ⬆️</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 von Maria und Anna – selbst gebaut mit HTML &amp; CSS.</small>
+    </div>
+  </footer>
+  
+</body>
+</html>
+    
+
+
